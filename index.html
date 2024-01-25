@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreya Singh</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="main">
+        <section class="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <h1 class="home__title">
+                        <div class="greeting">Hi, I'm Shreya Singh.</div>
+                        <span>Data Scientist.</span>
+                        <div>Based in India.</div>
+                    </h1>
+                </div>
+
+                <img src="images/pic_animation.jpg" alt="" class="home__img">
+            </div>
+        </section>
+
+        <section class="about section">
+            <div class="about__container container grid">
+                <img src="images/pic2.jpg">
+                <div class="about__content">
+                    <h2 class="section__title">About Me.</h2>
+                    <p class="about__description">
+                        I am a Data Scientist, with passion to learn more about Big data and enhance my skills in learning more about analysing data to get useful insights out of that data.    
+                    </p>
+                    <div class="tabs__btns">
+                        <span class="tabs__btn tab__active" data-target="#Skills">Main Skills</span>
+                        <span class="tabs__btn" data-target="Tools">Tools</span>
+                        <span class="tabs__btn" data-target="Experience">Experience</span>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__item tab__active" data-content id="skills">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Python</span>
+                                    <span>Worked with libraries like:
+                                        numpy, pandas, matplotlib, seaborn, Sci-kit Learn.
+                                    </span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>SQL</span>
+                                    <span>Experience in MySQL</span>
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Java</span>
+                                    <span>Experience in Java</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tabs__item" data-content id="Tools">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Version Control System</span>-Git, GitHub.
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Code Editor</span>-VS Code.
+                                </p>
+                                <p class="tabs__description">
+                                    <span>Computing Platform</span>-Jupyter Notebook.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tabs__item" data-content id="Experience">
+                            <div class="tabs__data">
+                                <p class="tabs__description">
+                                    <span>Technical Team Member</span>-Technojam
+                                    <span>Jan 2023 - Current</span>
+                                    <span>Being a part of a technical club in the university, I've got to experience and learn from my fellow peers who are passionate in learning and working into the tech world.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services section" id="services">
+            <h2 class="section__title">My Projects</h2>
+            <p class="section__description">There are projects that I've worked on that required the use of data collection, data analysis, EDA and machine learning concepts.</p>
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <a href="https://github.com/Shreya23094/FreeCodeCamp-Playlist-Analysis-.git" target="_blank"><i class="uil uil-youtube services__icon"></i>
+                        <h3 class="services__title">FreeCodeCamp Playlist Analysis</h3>
+                        <p class="services__description">This project is about the playlist of FreeCodeCamp "Beau Teaches Javascript". We've used API the collection of the data that we require for the analysis.</p>                    </a>
+                </div>
+                <div class="services__item">
+                    <a href="https://github.com/Shreya23094/House-Pricing-Prediction-Model.git" target="_blank">
+                        <i class="uil uil-home services__icon"></i>
+                        <h3 class="services__title">House Price Prediction Analysis</h3>
+                        <p class="services__description">This is a project for creating a model for predicting the price of the houses depending on the features that affects the prices of any house. </p>
+                    </a>
+                </div>
+                <div class="services__item">
+                    <a href="https://github.com/Shreya23094/Netflix_analysis.git" target="_blank">
+                        <i class="uil uil-video services__icon"></i>
+                        <h3 class="services__title">Netflix Analysis</h3>
+                        <p class="services__description">In this project, I've worked on a Netflix Movies and TV Shows dataset. This datset contains eight to nine thousand movies or TV shows collection.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h2 class="section__title">Contact Me</h2>
+                    <p class="contact__description">
+                        Connect me via email:
+                        <a href="mailto:sh.tech.learn@gmail.com">E-Mail</a>
+                    </p>
+                    <form class="contact__form" id="contact-form">
+                        <div class="contact__form-input">
+                            <input 
+                                type="text" 
+                                name="name" 
+                                placeholder="Your Name" 
+                                class="contact__input" 
+                                id="contact-name">
+                        </div>
+                        <div class="contact__form-input">
+                            <input 
+                                type="email" 
+                                name="email" 
+                                placeholder="Your e-mail" 
+                                class="contact__input" 
+                                id="contact-name">
+                        </div>
+                        <div class="contact__form-input">
+                            <input 
+                                type="text" 
+                                name="subject" 
+                                placeholder="Write a Subject" 
+                                class="contact__input" 
+                                id="contact-name">
+                        </div>
+                        <div class="contact__form-input">
+                            <textarea 
+                                name="message" 
+                                class="contact__input textarea" 
+                                id="contact-message"
+                                placeholder="Your message">
+                            </textarea>
+                        </div>
+                        <input type="submit" value="Submit" class="btn">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <h2 class="footer__logo">Social media links:</h2>
+            <div class="footer__container container grid">
+
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/-shreya--singh"
+                    class="footer__social-link" target="_blank"
+                    ><i class="uil uil-linkedin"></i></a>
+                </div>
+                <div class="footer__socials">
+                    <a href="sh.tech.learn@gmail.com"
+                    target="_blank"
+                    class="footer__social-link"
+                    ><i class="uil uil-envelope"></i></a>
+                </div>
+                <div class="footer__socials">
+                    <a href="https://www.GitHub.com/shreya23094"
+                    target="_blank"
+                    class="footer__social-link"
+                    ><i class="uil uil-github"></i></a>
+                </div>
+                <p class="footer__copyrights">&copy; Created with <span class="footer__heart">&hearts;</span> by Shreya Singh</p>
+
+                </div>
+            </div>
+        </footer>
+    </main>    
+    <script src="JS/main.js"></script>
+</body>
+</html>
